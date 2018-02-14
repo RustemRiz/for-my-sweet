@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Playball');
+body{
+	font-family:  Playball, cursive;
+	background-color: rgba(150,10,10,.9);
+	color:white;
+}
+h1{
+	font-family: 'Dancing Script', cursive;
+}
+
+img{
+	position: absolute;
+}
+.col-6,.col-3{
+	position: relative;
+}
+
+#kacheli{
+	left: -40px;
+	top:-40px;
+}
+#obida{
+	right: -40px;
+	top:-40px;
+}
+#krasota{
+	/*right: -0px;*/
+	position: static;
+}
+#happy{
+	right: -40px;
+	bottom: -40px;
+	z-index:1;
+}
+#funny{
+	left: -40px;
+	bottom: -40px;
+	z-index: 1;
+}
+
+
+.absolute{
+	position: absolute;
+}
+
+#see{
+	position: static;
+}
+
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	#hearts{
+		height: 100px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+#hearts{
+		height: 100px;
+	}
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	#hearts{
+		height: 200px;
+	}
+	#kacheli{
+	left: -50px;
+	top:-50px;
+}
+#obida{
+	right: -50px;
+	top:-50px;
+}
+
+#happy{
+	right: -60px;
+	bottom: -50px;
+}
+#funny{
+	left: -60px;
+	bottom: -50px;
+}
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px)  {
+	h1{
+		font-size: 100px;
+	}
+	 #hearts{
+			height: 300px;
+		}
+		#kacheli{
+		left: -70px;
+		top:-70px;
+	}
+	#obida{
+		right: -70px;
+		top:-70px;
+	}
+
+	#happy{
+		right: -70px;
+		bottom: -70px;
+	}
+	#funny{
+		left: -70px;
+		bottom: -70px;
+	}
+}
+  
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+ }
